@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int b, l;
+    scanf("%d %d", &b, &l);
+    float area = b * l;
+    int per = 2 * (l + b);
+    printf("%.2f is the area\n", area);
+    printf("%d is the perimeter", per);
+    return 0;
+}
